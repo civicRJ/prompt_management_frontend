@@ -1,0 +1,110 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 1;
+  padding: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+}
+
+.App {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.prompt, .error {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.prompt {
+  background-color: #e6ffe6;
+  border: 1px solid #b3ffb3;
+}
+
+.error {
+  background-color: #ffe6e6;
+  border: 1px solid #ffb3b3;
+}
+.rule-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.rule-list li {
+  text-align: left;
+}
+
+.rule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.rule-table th,
+.rule-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.rule-table th {
+  background-color: #f2f2f2;
+}
+
+.rule-table button {
+  margin: 0 5px;
+}
